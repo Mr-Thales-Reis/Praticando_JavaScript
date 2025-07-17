@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Olá, mundo!</h1>
-    <h2>Ja me livrei da maldição!</h2>
+    <h2 id="ola">Ja me livrei da maldição!</h2>
 </body>
 
 <script>
@@ -20,6 +20,7 @@
     const num02 = window.prompt("Digite o segundo número:");
     const soma = parseFloat(num01) + parseFloat(num02);
     window.alert("A soma é: " + soma);10
+    getElementById("ola").innerText = "A soma é: " + soma;
 </script>
 
 </html>
